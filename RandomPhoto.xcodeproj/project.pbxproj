@@ -13,6 +13,8 @@
 		BAEE738426B9257C0033312C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEE738226B9257C0033312C /* Main.storyboard */; };
 		BAEE738626B9257F0033312C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEE738526B9257F0033312C /* Assets.xcassets */; };
 		BAEE738926B9257F0033312C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEE738726B9257F0033312C /* LaunchScreen.storyboard */; };
+		BAEE739126B936A40033312C /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BAEE739026B936A40033312C /* GoogLeNetPlaces.mlmodel */; };
+		BAEE739326B936EE0033312C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE739226B936EE0033312C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BAEE738526B9257F0033312C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEE738826B9257F0033312C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEE738A26B9257F0033312C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEE739026B936A40033312C /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = SOURCE_ROOT; };
+		BAEE739226B936EE0033312C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		BAEE737B26B9257C0033312C /* RandomPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				BAEE739026B936A40033312C /* GoogLeNetPlaces.mlmodel */,
 				BAEE737C26B9257C0033312C /* AppDelegate.swift */,
 				BAEE737E26B9257C0033312C /* SceneDelegate.swift */,
 				BAEE738026B9257C0033312C /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				BAEE738526B9257F0033312C /* Assets.xcassets */,
 				BAEE738726B9257F0033312C /* LaunchScreen.storyboard */,
 				BAEE738A26B9257F0033312C /* Info.plist */,
+				BAEE739226B936EE0033312C /* Extensions.swift */,
 			);
 			path = RandomPhoto;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEE739326B936EE0033312C /* Extensions.swift in Sources */,
 				BAEE738126B9257C0033312C /* ViewController.swift in Sources */,
 				BAEE737D26B9257C0033312C /* AppDelegate.swift in Sources */,
 				BAEE737F26B9257C0033312C /* SceneDelegate.swift in Sources */,
+				BAEE739126B936A40033312C /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

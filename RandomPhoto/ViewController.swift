@@ -73,7 +73,7 @@ class ViewController: UIViewController {
         
         button.frame = CGRect(
             x: 100,
-            y: view.frame.size.height-100-view.safeAreaInsets.bottom,
+            y: view.frame.size.height-100,
             width: view.frame.size.width-200,
             height: 52
         )
